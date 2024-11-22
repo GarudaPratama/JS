@@ -1,1 +1,1 @@
-alert ("Selamat Datang di PonPes Abu Dzar")
+alert ("Selamat Datang di PonPes Abu Dzar");
