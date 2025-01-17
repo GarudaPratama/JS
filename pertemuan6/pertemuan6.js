@@ -24,5 +24,10 @@ console.log(number1 != number3)
 console.log(number1 !== number3)
 console.log(number4 > number6)
 console.log(number4 > number5)
+console.log('10' <= 10) 
+console.log(5 === "5");
+console.log(10 !== '10');
+console.log(null == undefined);
+console.log('apple' > 'banana');
 
 
