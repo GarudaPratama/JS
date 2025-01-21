@@ -22,7 +22,7 @@ if (nilaiMTK >= 91 || nilaiIPA >= 91 || nilaiIPS >= 91) {
 }
 
 let isLoggedIn = true;
-if (isLoggedIn) {
+if (!isLoggedIn) {
     console.log('Anda sudah login')
 } else {
     console.log('Anda belum login')
