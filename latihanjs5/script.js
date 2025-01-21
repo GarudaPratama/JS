@@ -67,6 +67,7 @@ switch (buah) {
 }
 
     console.log(buah);
+    // console.log(buah);
 
 let saklar = undefined;
 if (saklar) {
