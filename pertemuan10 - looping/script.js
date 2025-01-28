@@ -33,3 +33,12 @@ for (let m = 1; m <= 5; m++){
 for (let n = 10; n >= 4; n--){
     console.log(n);
 }
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+    }
+
+for (let k = 5; k <= 5; k++){
+    console.log(k);
+}
+
