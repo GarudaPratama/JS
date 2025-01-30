@@ -16,14 +16,40 @@ function numberTwo() {
     document.getElementById('hasil').innerHTML = total;
 }
 
-function tambah() {
+function numberThree(numberThree) {
+    let getElement = document.getElementById('hasil').innerHTML;
+    if (getElement == '0'){
+        getElement = '';
+    }
+    let total = getElement + numberThree;
+    document.getElementById('hasil').innerHTML = total;
+}
+
+function numberFour(numberFour) {
+    let getElement = document.getElementById('hasil').innerHTML;
+    if (getElement == '0'){
+        getElement = '';
+    }
+    let total = getElement + numberFour;
+    document.getElementById('hasil').innerHTML = total;
+}
+
+function clear(){
+    let num1 = document.getElementById('hasil').innerHTML;
+    numbers = 0;
+    document.getElementById('hasil').innerHTML = numbers;
+}
+
+
+
+function tambah(tambah) {
     let getElement = document.getElementById('hasil').innerHTML;
     let total = getElement + '+';
     document.getElementById('hasil').innerHTML = total;
 
 }
 
-function kurang() {
+function kurang(kurang) {
     let getElement = document.getElementById('hasil').innerHTML;
     let total = getElement + '-';
     document.getElementById('hasil').innerHTML = total;
