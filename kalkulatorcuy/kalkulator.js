@@ -34,8 +34,62 @@ function numberFour(numberFour) {
     document.getElementById('hasil').innerHTML = total;
 }
 
-function clear(){
-    let num1 = document.getElementById('hasil').innerHTML;
+function numberFive(numberFive) {
+    let getElement = document.getElementById('hasil').innerHTML;
+    if (getElement == '0'){
+        getElement = '';
+    }
+    let total = getElement + numberFive;
+    document.getElementById('hasil').innerHTML = total;
+}
+
+function numberSix(numberSix) {
+    let getElement = document.getElementById('hasil').innerHTML;
+    if (getElement == '0'){
+        getElement = '';
+    }
+    let total = getElement + numberSix;
+    document.getElementById('hasil').innerHTML = total;
+}
+
+function numberSeven(numberSeven) {
+    let getElement = document.getElementById('hasil').innerHTML;
+    if (getElement == '0'){
+        getElement = '';
+    }
+    let total = getElement + numberSeven;
+    document.getElementById('hasil').innerHTML = total;
+}
+
+function numberEight(numberEight) {
+    let getElement = document.getElementById('hasil').innerHTML;
+    if (getElement == '0'){
+        getElement = '';
+    }
+    let total = getElement + numberEight;
+    document.getElementById('hasil').innerHTML = total;
+}
+
+function numberNine(numberNine) {
+    let getElement = document.getElementById('hasil').innerHTML;
+    if (getElement == '0'){
+        getElement = '';
+    }
+    let total = getElement + numberNine;
+    document.getElementById('hasil').innerHTML = total;
+}
+
+function numberNil(numberNil) {
+    let getElement = document.getElementById('hasil').innerHTML;
+    if (getElement == '0'){
+        getElement = '';
+    }
+    let total = getElement + numberNil;
+    document.getElementById('hasil').innerHTML = total;
+}
+
+function c(){
+    // let num1 = document.getElementById('hasil').innerHTML;
     numbers = 0;
     document.getElementById('hasil').innerHTML = numbers;
 }
