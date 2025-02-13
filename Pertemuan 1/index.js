@@ -8,7 +8,12 @@ console.log(2 + "2" - 1);
 
 console.log(typeof null);
 
-let x = 5;
-let y = x++;
-console.log(y);
+// let x = 5;
+// let y = x++;
+// console.log(y);
+
+for (x = 5; y = x; y++) {
+    console.log(y);
+    break;
+}
 
