@@ -1,4 +1,4 @@
-//! Object
+//!1 Object
 //*Struktur data adalah cara menyimpan dan mengatur data agar dapat digunakan secara efisien. JavaScript memiliki beberapa struktur data bawaan yang umum digunakan
 
 
@@ -26,7 +26,7 @@ let { firstName, lastName } = person;
 console.log(firstName);
 console.log(lastName);
 
-//!2.1 array
+//!2 array
 //*2.1 membuat array metode 1 (literals)
 let fruits = ['apple', 'banana', 'orange'];
 console.log(fruits);
@@ -111,3 +111,60 @@ console.log(mySet);
 //*4.3 menghapus set
 mySet.delete(5);
 console.log(mySet);
+
+
+//!5 Spread Operator
+const array1 = [1, 2, 3];
+console.log(array1);
+
+//*5.1 menyisipkan data/value
+const array2 = [...array1, 4, 5];
+console.log(array2);
+
+//*5.2 menyisipkan object
+const person1 = { firstName: "John", lastName: "Doe", age: 30 };
+const person2 = { ...person1, nickName: "wakwaw" };
+console.log(person2);
+
+
+//*5.3 menyisipkan array
+const array3 = [1, 2, 3];
+const array4 = [4, 5, 6];
+const array5 = [...array3, ...array4, 7, 8, 9];
+console.log(array5);
+
+
+//!6 Destructuring
+//*Contoh 1
+function myFunc(...params) {
+    console.log('initial', params);
+}
+myFunc('one', 'two', 'three');
+
+//*Contoh 2
+function myFunc2(number, number2, ...params) {
+    console.log('tampilkan', number);
+    console.log('tampilkan', number2);
+    console.log('sss', params);
+}
+myFunc2( 'one', 'two', 'three', 'four', 'five');
+
+//*Contoh 3 (menghitung jumlah parameter)
+function lengthParams(...params) {
+    console.log('view', params);
+    console.log(params.length);
+}
+lengthParams('one', 'two', 'three', 'four', 'five');
+
+//*Contoh 4
+const names = [
+    'abdul',
+    'budi',
+    'banu',
+    'chandra',
+    'Bejo',
+];
+const [name1, name2, ...rest] = names;
+console.log(name1);
+console.log(name2);
+console.log(rest);
